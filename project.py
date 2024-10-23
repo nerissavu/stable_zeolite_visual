@@ -610,7 +610,7 @@ def main():
     # Add navigation to sidebar
     st.sidebar.markdown("---")  # Separator
     st.sidebar.header("Navigation")
-    page = st.sidebar.radio("", ["Introduction", "Energy Analysis", "Force Analysis","Stress Analysis", "Detailed Information"])
+    page = st.sidebar.radio("", ["Introduction" , "Detailed Zeolite Information", "Energy Analysis", "Force Analysis","Stress Analysis"])
 
     # Filter data
     filtered_df = df_zeolites[
